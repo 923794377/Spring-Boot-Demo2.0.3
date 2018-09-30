@@ -1,0 +1,77 @@
+* {
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	/*font-family: "Comic Sans MS", "幼圆", "黑体", sans-serif;*/
+	font-family: "微软雅黑", serif;
+	color: #666;
+	background: #FFFFFF;
+	height: 100%;
+	width: 100%;
+}
+
+.a {
+	color: #1285fb;
+	text-decoration: none;
+}
+
+.logo-img {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.line {
+	width: 90%;
+	padding-bottom: 40px;
+	height: 8px;
+	border: none;
+	border-bottom: 1px double #dcdcdc;
+	margin: 0 auto;
+}
+
+.title {
+	padding-top: 15px;
+	width: 90%;
+	height: 100%;
+	line-height: 25px;
+	margin: 0 auto;
+	text-indent: 28px;
+}
+
+.title p {
+	margin-top: 10px;
+	font-size: 14px;
+	color: #000000;
+	text-align: left;
+	text-justify: inter-ideograph;
+}
+
+.bottom {
+	width: 90%;
+	height: 100%;
+	line-height: 25px;
+	margin: 0 auto;
+	padding: 20px 0px;
+	font-size: 14px;
+	color: #000000;
+}
+
+.copyright {
+	font-size: 10px;
+	color: #999999;
+	text-align: center;
+	padding-top:0px;
+	width: 80%;
+	margin: auto;
+}

@@ -1,0 +1,17 @@
+#============= 生产环境 =====================
+
+#端口号
+server:
+  port: 80
+####数据源DataSource1#####
+spring:
+  datasource:
+    url: mysql://120.26.216.193:3306/GJB_zkd?useUnicode=true&amp;characterEncoding=utf-8;zeroDateTimeBehavior=convertToNull
+    username: user
+    password: guanjiapo
+    driver-class-name: com.mysql.jdbc.Driver
+logging:
+  file: ./log.
+  #path: D:\DEMO\Spring-Boot-Demo2.0.3\Spring-Boot-Demo2.0.3
+mybatis:
+  mapper-locations: classpath:mapper/*.xml  #注意：一定要对应mapper映射xml文件的所在路径

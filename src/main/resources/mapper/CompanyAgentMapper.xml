@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.dao.CompanyAgentDao">
+    <select id="findById" resultType="com.example.model.CompanyAgent">
+      select * from GJB_zkd.GJB_company_agent where ca_id = #{ca_id}
+    </select>
+    <insert id="insertCompanyAgent" keyProperty="ca_id" useGeneratedKeys="true">
+        INSERT  INTO  GJB_company_agent
+        (
+        ca_name,
+        ca_headImage,
+        ca_phone,
+        ca_code,
+        ca_password,
+        ca_remark,
+        ca_bool,
+        cy_id,
+        ca_state,
+        ca_create
+        )
+        VALUES
+        (
+        #{ca_name},
+        #{ca_headImage},
+        #{ca_phone},
+        #{ca_code},
+        #{ca_password},
+        #{ca_remark},
+        #{ca_bool},
+        #{cy_id},
+        #{ca_state},
+        now()
+        )
+    </insert>
+</mapper>
