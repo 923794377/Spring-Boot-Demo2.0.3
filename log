@@ -1,0 +1,14 @@
+2018-08-23 14:21:26.796  INFO 11596 --- [http-nio-80-exec-2] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1534901664,1535003547; Hm_lpvt_4e5bdf78b2b9fcb88736fc67709f2806=1535003681] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+2018-08-23 14:21:26.811  INFO 11596 --- [http-nio-80-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-08-23 14:21:26.811  INFO 11596 --- [http-nio-80-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-08-23 14:21:26.855  INFO 11596 --- [http-nio-80-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 44 ms
+2018-08-23 14:21:26.900  INFO 11596 --- [http-nio-80-exec-2] com.example.aop.WebLogAspect             : 前置通知
+2018-08-23 14:21:26.900  INFO 11596 --- [http-nio-80-exec-2] com.example.aop.WebLogAspect             : URL : http://localhost/
+2018-08-23 14:21:26.901  INFO 11596 --- [http-nio-80-exec-2] com.example.aop.WebLogAspect             : HTTP_METHOD : GET
+2018-08-23 14:21:26.901  INFO 11596 --- [http-nio-80-exec-2] com.example.aop.WebLogAspect             : IP : 0:0:0:0:0:0:0:1
+2018-08-23 14:21:26.903  INFO 11596 --- [http-nio-80-exec-2] com.example.aop.WebLogAspect             : CLASS_METHOD : com.example.controller.IndexHelloController.about
+2018-08-23 14:21:26.903  INFO 11596 --- [http-nio-80-exec-2] com.example.aop.WebLogAspect             : ARGS : [{}]
+2018-08-23 14:21:26.912  INFO 11596 --- [http-nio-80-exec-2] c.e.controller.IndexHelloController      : about-------------------------
+2018-08-23 14:21:26.912  INFO 11596 --- [http-nio-80-exec-2] com.example.aop.WebLogAspect             : 后置通知
+2018-08-23 14:21:26.912  INFO 11596 --- [http-nio-80-exec-2] com.example.aop.WebLogAspect             : RESPONSE : about
+2018-08-23 14:21:26.912  INFO 11596 --- [http-nio-80-exec-2] com.example.aop.WebLogAspect             : SPEND TIME : 12

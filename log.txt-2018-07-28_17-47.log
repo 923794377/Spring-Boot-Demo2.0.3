@@ -1,0 +1,54 @@
+2018-07-28 17:46:51.126  INFO 9664 --- [http-nio-8585-exec-8] com.example.aop.WebLogAspect             : 前置通知
+2018-07-28 17:46:51.131  INFO 9664 --- [http-nio-8585-exec-8] com.example.aop.WebLogAspect             : URL : http://192.168.0.46:8585/
+2018-07-28 17:46:51.131  INFO 9664 --- [http-nio-8585-exec-8] com.example.aop.WebLogAspect             : HTTP_METHOD : GET
+2018-07-28 17:46:51.131  INFO 9664 --- [http-nio-8585-exec-8] com.example.aop.WebLogAspect             : IP : 192.168.0.46
+2018-07-28 17:46:51.131  INFO 9664 --- [http-nio-8585-exec-8] com.example.aop.WebLogAspect             : CLASS_METHOD : com.example.controller.IndexHelloController.about
+2018-07-28 17:46:51.131  INFO 9664 --- [http-nio-8585-exec-8] com.example.aop.WebLogAspect             : ARGS : [{}]
+2018-07-28 17:46:51.131  INFO 9664 --- [http-nio-8585-exec-8] c.e.controller.IndexHelloController      : about-------------------------
+2018-07-28 17:46:51.131  INFO 9664 --- [http-nio-8585-exec-8] com.example.aop.WebLogAspect             : 后置通知
+2018-07-28 17:46:51.132  INFO 9664 --- [http-nio-8585-exec-8] com.example.aop.WebLogAspect             : RESPONSE : about
+2018-07-28 17:46:51.132  INFO 9664 --- [http-nio-8585-exec-8] com.example.aop.WebLogAspect             : SPEND TIME : 6
+2018-07-28 17:46:54.697  INFO 9664 --- [http-nio-8585-exec-4] com.example.aop.WebLogAspect             : 前置通知
+2018-07-28 17:46:54.698  INFO 9664 --- [http-nio-8585-exec-4] com.example.aop.WebLogAspect             : URL : http://192.168.0.46:8585/
+2018-07-28 17:46:54.698  INFO 9664 --- [http-nio-8585-exec-4] com.example.aop.WebLogAspect             : HTTP_METHOD : GET
+2018-07-28 17:46:54.698  INFO 9664 --- [http-nio-8585-exec-4] com.example.aop.WebLogAspect             : IP : 192.168.0.46
+2018-07-28 17:46:54.698  INFO 9664 --- [http-nio-8585-exec-4] com.example.aop.WebLogAspect             : CLASS_METHOD : com.example.controller.IndexHelloController.about
+2018-07-28 17:46:54.698  INFO 9664 --- [http-nio-8585-exec-4] com.example.aop.WebLogAspect             : ARGS : [{}]
+2018-07-28 17:46:54.698  INFO 9664 --- [http-nio-8585-exec-4] c.e.controller.IndexHelloController      : about-------------------------
+2018-07-28 17:46:54.698  INFO 9664 --- [http-nio-8585-exec-4] com.example.aop.WebLogAspect             : 后置通知
+2018-07-28 17:46:54.698  INFO 9664 --- [http-nio-8585-exec-4] com.example.aop.WebLogAspect             : RESPONSE : about
+2018-07-28 17:46:54.698  INFO 9664 --- [http-nio-8585-exec-4] com.example.aop.WebLogAspect             : SPEND TIME : 1
+2018-07-28 17:47:02.675  INFO 11000 --- [main] c.example.application.ApplicationTests   : Starting ApplicationTests on 2013-20160304LW with PID 11000 (started by Administrator in D:\DEMO\Spring-Boot-Demo2.0.3\Spring-Boot-Demo2.0.3)
+2018-07-28 17:47:02.682  INFO 11000 --- [main] c.example.application.ApplicationTests   : The following profiles are active: dev
+2018-07-28 17:47:02.722  INFO 11000 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@bd9d24: startup date [Sat Jul 28 17:47:02 CST 2018]; root of context hierarchy
+2018-07-28 17:47:04.411  INFO 11000 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-28 17:47:04.757  INFO 11000 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@bd9d24: startup date [Sat Jul 28 17:47:02 CST 2018]; root of context hierarchy
+2018-07-28 17:47:04.838  INFO 11000 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/findCompanyAgent]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.example.controller.CompanyAgentController.findCompanyAgent()
+2018-07-28 17:47:04.839  INFO 11000 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/index]}" onto public java.lang.String com.example.controller.IndexController.index()
+2018-07-28 17:47:04.840  INFO 11000 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto public java.lang.String com.example.controller.IndexController.hello(java.lang.Integer)
+2018-07-28 17:47:04.840  INFO 11000 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String com.example.controller.IndexHelloController.about(java.util.Map<java.lang.String, java.lang.Object>)
+2018-07-28 17:47:04.841  INFO 11000 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/ftlIndex]}" onto public java.lang.String com.example.controller.IndexHelloController.ftlIndex(java.util.Map<java.lang.String, java.lang.Object>)
+2018-07-28 17:47:04.843  INFO 11000 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-28 17:47:04.843  INFO 11000 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-28 17:47:04.883  INFO 11000 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-28 17:47:04.883  INFO 11000 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-28 17:47:05.178  INFO 11000 --- [main] o.s.w.s.v.f.FreeMarkerConfigurer         : ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-07-28 17:47:05.465  INFO 11000 --- [main] c.example.application.ApplicationTests   : Started ApplicationTests in 3.242 seconds (JVM running for 4.049)
+2018-07-28 17:47:05.609  INFO 11000 --- [Thread-2] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@bd9d24: startup date [Sat Jul 28 17:47:02 CST 2018]; root of context hierarchy
+2018-07-28 17:47:43.014  INFO 11052 --- [main] c.example.application.ApplicationTests   : Starting ApplicationTests on 2013-20160304LW with PID 11052 (started by Administrator in D:\DEMO\Spring-Boot-Demo2.0.3\Spring-Boot-Demo2.0.3)
+2018-07-28 17:47:43.015  INFO 11052 --- [main] c.example.application.ApplicationTests   : The following profiles are active: dev
+2018-07-28 17:47:43.049  INFO 11052 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@bd9d24: startup date [Sat Jul 28 17:47:43 CST 2018]; root of context hierarchy
+2018-07-28 17:47:44.819  INFO 11052 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-28 17:47:45.137  INFO 11052 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@bd9d24: startup date [Sat Jul 28 17:47:43 CST 2018]; root of context hierarchy
+2018-07-28 17:47:45.217  INFO 11052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/findCompanyAgent]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.example.controller.CompanyAgentController.findCompanyAgent()
+2018-07-28 17:47:45.218  INFO 11052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/index]}" onto public java.lang.String com.example.controller.IndexController.index()
+2018-07-28 17:47:45.219  INFO 11052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto public java.lang.String com.example.controller.IndexController.hello(java.lang.Integer)
+2018-07-28 17:47:45.219  INFO 11052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String com.example.controller.IndexHelloController.about(java.util.Map<java.lang.String, java.lang.Object>)
+2018-07-28 17:47:45.220  INFO 11052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/ftlIndex]}" onto public java.lang.String com.example.controller.IndexHelloController.ftlIndex(java.util.Map<java.lang.String, java.lang.Object>)
+2018-07-28 17:47:45.222  INFO 11052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-28 17:47:45.223  INFO 11052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-28 17:47:45.264  INFO 11052 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-28 17:47:45.264  INFO 11052 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-28 17:47:45.559  INFO 11052 --- [main] o.s.w.s.v.f.FreeMarkerConfigurer         : ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-07-28 17:47:45.889  INFO 11052 --- [main] c.example.application.ApplicationTests   : Started ApplicationTests in 3.353 seconds (JVM running for 4.034)
+2018-07-28 17:47:46.003  INFO 11052 --- [Thread-2] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@bd9d24: startup date [Sat Jul 28 17:47:43 CST 2018]; root of context hierarchy

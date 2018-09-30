@@ -1,0 +1,44 @@
+2018-07-28 17:45:28.973  INFO 9664 --- [main] com.example.Application                  : Starting Application on 2013-20160304LW with PID 9664 (D:\DEMO\Spring-Boot-Demo2.0.3\Spring-Boot-Demo2.0.3\target\classes started by Administrator in D:\DEMO\Spring-Boot-Demo2.0.3\Spring-Boot-Demo2.0.3)
+2018-07-28 17:45:28.981  INFO 9664 --- [main] com.example.Application                  : The following profiles are active: dev
+2018-07-28 17:45:29.036  INFO 9664 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@d3ccb2: startup date [Sat Jul 28 17:45:29 CST 2018]; root of context hierarchy
+2018-07-28 17:45:30.370  INFO 9664 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8585 (http)
+2018-07-28 17:45:30.392  INFO 9664 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-07-28 17:45:30.392  INFO 9664 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-07-28 17:45:30.396  INFO 9664 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files (x86)\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows7Master;C:\Program Files (x86)\Java\jdk1.8.0_181\bin;D:\develop\Git\cmd;C:\Program Files\TortoiseSVN\bin;C:\Python27;.]
+2018-07-28 17:45:30.487  INFO 9664 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-07-28 17:45:30.487  INFO 9664 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1452 ms
+2018-07-28 17:45:30.615  INFO 9664 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-07-28 17:45:30.618  INFO 9664 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-28 17:45:30.618  INFO 9664 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-28 17:45:30.618  INFO 9664 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-28 17:45:30.618  INFO 9664 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-28 17:45:30.927  INFO 9664 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-28 17:45:31.130  INFO 9664 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@d3ccb2: startup date [Sat Jul 28 17:45:29 CST 2018]; root of context hierarchy
+2018-07-28 17:45:31.177  INFO 9664 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/findCompanyAgent]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.example.controller.CompanyAgentController.findCompanyAgent()
+2018-07-28 17:45:31.178  INFO 9664 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/index]}" onto public java.lang.String com.example.controller.IndexController.index()
+2018-07-28 17:45:31.179  INFO 9664 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto public java.lang.String com.example.controller.IndexController.hello(java.lang.Integer)
+2018-07-28 17:45:31.179  INFO 9664 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String com.example.controller.IndexHelloController.about(java.util.Map<java.lang.String, java.lang.Object>)
+2018-07-28 17:45:31.180  INFO 9664 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/ftlIndex]}" onto public java.lang.String com.example.controller.IndexHelloController.ftlIndex(java.util.Map<java.lang.String, java.lang.Object>)
+2018-07-28 17:45:31.182  INFO 9664 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-28 17:45:31.183  INFO 9664 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-28 17:45:31.212  INFO 9664 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-28 17:45:31.212  INFO 9664 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-28 17:45:31.422  INFO 9664 --- [main] o.s.w.s.v.f.FreeMarkerConfigurer         : ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-07-28 17:45:31.613  INFO 9664 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-07-28 17:45:31.615  INFO 9664 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-07-28 17:45:31.619  INFO 9664 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-07-28 17:45:31.663  INFO 9664 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8585 (http) with context path ''
+2018-07-28 17:45:31.666  INFO 9664 --- [main] com.example.Application                  : Started Application in 3.188 seconds (JVM running for 3.776)
+2018-07-28 17:45:57.191  INFO 9664 --- [http-nio-8585-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-07-28 17:45:57.192  INFO 9664 --- [http-nio-8585-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-07-28 17:45:57.226  INFO 9664 --- [http-nio-8585-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 34 ms
+2018-07-28 17:45:57.262  INFO 9664 --- [http-nio-8585-exec-1] com.example.aop.WebLogAspect             : 前置通知
+2018-07-28 17:45:57.262  INFO 9664 --- [http-nio-8585-exec-1] com.example.aop.WebLogAspect             : URL : http://192.168.0.46:8585/
+2018-07-28 17:45:57.262  INFO 9664 --- [http-nio-8585-exec-1] com.example.aop.WebLogAspect             : HTTP_METHOD : GET
+2018-07-28 17:45:57.262  INFO 9664 --- [http-nio-8585-exec-1] com.example.aop.WebLogAspect             : IP : 192.168.0.46
+2018-07-28 17:45:57.263  INFO 9664 --- [http-nio-8585-exec-1] com.example.aop.WebLogAspect             : CLASS_METHOD : com.example.controller.IndexHelloController.about
+2018-07-28 17:45:57.263  INFO 9664 --- [http-nio-8585-exec-1] com.example.aop.WebLogAspect             : ARGS : [{}]
+2018-07-28 17:45:57.267  INFO 9664 --- [http-nio-8585-exec-1] c.e.controller.IndexHelloController      : about-------------------------
+2018-07-28 17:45:57.267  INFO 9664 --- [http-nio-8585-exec-1] com.example.aop.WebLogAspect             : 后置通知
+2018-07-28 17:45:57.267  INFO 9664 --- [http-nio-8585-exec-1] com.example.aop.WebLogAspect             : RESPONSE : about
+2018-07-28 17:45:57.267  INFO 9664 --- [http-nio-8585-exec-1] com.example.aop.WebLogAspect             : SPEND TIME : 5

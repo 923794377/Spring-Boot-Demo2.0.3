@@ -1,0 +1,61 @@
+2018-08-21 10:02:54.864  INFO 3312 --- [main] com.example.Application                  : Starting Application on 3M335WQHCW1ZHCJ with PID 3312 (E:\WEB-SPACE\Spring-Boot-Demo2.0.3\target\classes started by Administrator in E:\WEB-SPACE\Spring-Boot-Demo2.0.3)
+2018-08-21 10:02:54.897  INFO 3312 --- [main] com.example.Application                  : The following profiles are active: dev
+2018-08-21 10:02:55.000  INFO 3312 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@173f9fc: startup date [Tue Aug 21 10:02:55 CST 2018]; root of context hierarchy
+2018-08-21 10:02:56.074  WARN 3312 --- [main] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'webLogAspect' defined in file [E:\WEB-SPACE\Spring-Boot-Demo2.0.3\target\classes\com\example\aop\WebLogAspect.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.aop.WebLogAspect]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The type javax.servlet.http.HttpServletRequest cannot be resolved. It is indirectly referenced from required .class files
+	The import javax.servlet.http.HttpServletRequest cannot be resolved
+	HttpServletRequest cannot be resolved to a type
+	The method getRequest() from the type ServletRequestAttributes refers to the missing type HttpServletRequest
+
+2018-08-21 10:02:56.083  INFO 3312 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-08-21 10:02:56.088 ERROR 3312 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'webLogAspect' defined in file [E:\WEB-SPACE\Spring-Boot-Demo2.0.3\target\classes\com\example\aop\WebLogAspect.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.aop.WebLogAspect]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The type javax.servlet.http.HttpServletRequest cannot be resolved. It is indirectly referenced from required .class files
+	The import javax.servlet.http.HttpServletRequest cannot be resolved
+	HttpServletRequest cannot be resolved to a type
+	The method getRequest() from the type ServletRequestAttributes refers to the missing type HttpServletRequest
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1238)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1137)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:503)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:395)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1255)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1243)
+	at com.example.Application.main(Application.java:19)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.aop.WebLogAspect]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The type javax.servlet.http.HttpServletRequest cannot be resolved. It is indirectly referenced from required .class files
+	The import javax.servlet.http.HttpServletRequest cannot be resolved
+	HttpServletRequest cannot be resolved to a type
+	The method getRequest() from the type ServletRequestAttributes refers to the missing type HttpServletRequest
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:182)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1230)
+	... 16 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	The type javax.servlet.http.HttpServletRequest cannot be resolved. It is indirectly referenced from required .class files
+	The import javax.servlet.http.HttpServletRequest cannot be resolved
+	HttpServletRequest cannot be resolved to a type
+	The method getRequest() from the type ServletRequestAttributes refers to the missing type HttpServletRequest
+
+	at com.example.aop.WebLogAspect.<init>(WebLogAspect.java:1)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:170)
+	... 18 common frames omitted
+

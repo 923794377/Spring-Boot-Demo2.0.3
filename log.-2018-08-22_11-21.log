@@ -1,0 +1,10 @@
+2018-08-22 11:21:05.037  INFO 8348 --- [main] com.example.Application                  : Starting Application on 3M335WQHCW1ZHCJ with PID 8348 (E:\WEB-SPACE\Spring-Boot-Demo2.0.3\target\classes started by Administrator in E:\WEB-SPACE\Spring-Boot-Demo2.0.3)
+2018-08-22 11:21:05.050  INFO 8348 --- [main] com.example.Application                  : The following profiles are active: prd
+2018-08-22 11:21:05.164  INFO 8348 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@683d9d: startup date [Wed Aug 22 11:21:05 CST 2018]; root of context hierarchy
+2018-08-22 11:21:07.523  INFO 8348 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-08-22 11:21:07.524  INFO 8348 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-08-22 11:21:07.531  INFO 8348 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-08-22 11:21:07.544  INFO 8348 --- [main] com.example.Application                  : Started Application in 3.218 seconds (JVM running for 4.117)
+2018-08-22 11:21:07.547  INFO 8348 --- [Thread-9] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@683d9d: startup date [Wed Aug 22 11:21:05 CST 2018]; root of context hierarchy
+2018-08-22 11:21:07.549  INFO 8348 --- [Thread-9] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-08-22 11:21:07.550  INFO 8348 --- [Thread-9] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
